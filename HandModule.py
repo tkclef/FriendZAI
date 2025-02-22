@@ -45,7 +45,7 @@ while True:
 
             fingers2 = detector.fingersUp(hand2)
             #length, info, img = detector.findDistance(lmList1[8], lmList2[8], img) #DistanceTrace -> 1
-            #length, info, img = detector.findDistance(centerPoint1[8], centerPoint2[8], img)  # DistanceTrace -> 1
+            length, info, img = detector.findDistance(centerPoint1[8], centerPoint2[8], img)  # DistanceTrace -> 1
 
             #print(fingers1, fingers2) || DEBUGGING PURPOSES
 
